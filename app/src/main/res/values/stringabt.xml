@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">
+        This app was made by Nitya, a student passionate about science education.
+        \n\nHer non-profit organisation, VidyaVerse works with children to teach them applied STEM in innovative ways. Their aim to foster long lasting curiosity and a passion for discovery and innovation in every child.
+        \n\nYou can view the Vidyaverse website at www.vidyaverse.org
+    </string>
+
+    <string name="links">
+        Read more articles and ask us your questions at our STEM Blog: www.vidyaverse.org/zenith
+        \n\nWrite to Nitya at: \nnitya.agarwala@gmail.com
+    </string>
+</resources>

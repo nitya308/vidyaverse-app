@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        style="@style/MyWindows"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exp_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="Title"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:text="What you'll need:"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/materials"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="1.1"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:text="materials"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:paddingStart="6dp"
+                android:paddingLeft="6dp"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="The Experiment:"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/steps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="1.1"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:text="steps"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:paddingStart="6dp"
+                android:paddingLeft="6dp"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Why Does This Happen?"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/explanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="1.1"
+                android:paddingStart="18dp"
+                android:paddingLeft="18dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:text="explanation"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

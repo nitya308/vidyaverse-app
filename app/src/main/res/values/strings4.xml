@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For MIND-BLOWING SCIENCE -->
+
+
+    <!-- For Experiment titles! -->
+    <string-array name="C3_title_array">
+        <item>The Inflating Balloon Experiment</item>
+        <item>Balloon Rockets </item>
+        <item>Water Inside A Straw Magic</item>
+    </string-array>
+
+    <!-- For Experiment images! -->
+    <integer-array name="C3_image_array">
+        <item>@drawable/c3image1</item>
+        <item>@drawable/c3image2</item>
+        <item>@drawable/c3image3</item>
+    </integer-array>
+
+    <!-- For Experiment intros! -->
+    <string-array name="C3_intro_array">
+        <item>Inflate a balloon with using just a plastic bottle, baking soda and vinegar. Acids and salts react to produce carbon dioxide…</item>
+        <item>Watch a balloon fly around the room and find out how Newtons Third Law of motion really works…</item>
+        <item>Water doesn\'t fall down from a straw? Find out why</item>
+    </string-array>
+
+    <string-array name="C3_materials_array">
+        <item>
+            Some baking soda
+            \nVinegar
+            \nA bottle
+            \nA large balloon
+        </item>
+        <item>
+            A balloon
+            \nA straw and string(optional)
+        </item>
+        <item>
+            A glass of water
+            \nA straw
+        </item>
+    </string-array>
+
+    <string-array name="C3_steps_array">
+        <item>
+            Using a straw or just your hands, fill the balloon with some baking soda.
+            \nNext, fill 1/4th of the bottle with vinegar.
+            \nThen tilt the bottle slightly, and place the balloon over the bottle. You can hold the balloon and bottle tightly with your fist, to make sure it’s sealed completely.
+            \nShake the bottle a little bit to make the reaction go faster and watch what happens when the baking soda falls from the balloon into the vinegar!
+            \n\nWhat do you think will happen?
+            \nThe balloon should start to fill up with a gas!
+        </item>
+
+        <item>
+            Stand in an open room with open space so that your rocket doesn’t hit anything.
+            \nBlow up your balloon and hold the neck with your fingers.
+            \nOPTIONAL: If you’re using a straw, tape your straw to the top of the balloon. Put a long string through the straw. Hold one end of the string yourself and ask someone to hold the other end of the string for you on the other side of the room.
+            \nThen, release the neck of the balloon.
+            \n\nWhat do you think will happen?
+            \nDid the balloon fly around the room?
+        </item>
+
+        <item>
+            Place the straw in your glass of water and pull up some water into it.
+            \nQuickly cover the top of the straw tightly with your finger and lift the straw out of the water and see what happens.
+            \nNow release your finger from covering the straw and see what happens!
+            \n\nWhat do you think will happen?
+            \nWhen your finger is placed over the straw, the water does not fall down. As soon as you remove your finger, the water will fall.
+            \n
+        </item>
+    </string-array>
+
+    <string-array name="C3_expl_array">
+        <item>
+            To understand why the balloon inflates, we need to first understand the substances we used. Vinegar is something known as an acid. An acid is a substance that has Hydrogen ions. There are many types of acids present in nature like citric acid in lemon and oranges(which gives them the sour taste), formic acid in bees, and tannic acid in tea.
+            \nThe other substance we used, is baking soda, which is a salt (with the chemical formula NaHCO3).
+            \nWhen acids react with salt, they produce a gas. Here, the baking soda reacts with vinegar to produce the gas, carbon dioxide. Gases always try to occupy the maximum space possible. So this gas tries to move out of the bottle and enters the balloon which inflates it.
+            \nThis is also why we use baking soda in cakes! If you’ve seen a cake being baked, you’ll see that it rises in the oven. This is because the reaction of baking soda with the acid in cakes creates gas which makes the cake rise, just like it makes the balloon inflate!
+            \n
+        </item>
+
+        <item>
+            This happens because of something known as Newton\’s third law of motion, which says that every action has an equal and opposite reaction. This means that if you push or pull (exert a force) on something, it will push or pull you back.
+            \nWhen you release the balloon, the air comes out towards you. If you put your hand behind the balloon, you’ll be able to feel the air blowing out.
+            \nThe balloon pushes the air coming out of it towards you. Of course, you can’t see this, because air is invisible. But because of this push, the air outside also pushes the balloon back, but in the opposite direction–away from you.
+            \nThis push from the air on the balloon makes it move forward. Once all the air deflates, there is no more push or force acting on it, and so the balloon stops!
+            \nNow that you\'ve seen it in a balloon, think about how this law of motion applies to other parts of your life? How about when you\'re on skates and you push the wall and it makes you move back. On when you walk? How does this law of motion apply there?
+            \n
+        </item>
+
+        <item>
+            Why does the water in the straw not fall down due to gravity? It’s because there are other forces acting on the water.
+            \nOne of those forces is air pressure. Normally, the air above the straw pushes the water in the straw down and makes it fall. But when you cover the top of the straw with your finger, the air cannot push the water down. This is why the water stays in the straw until you remove your finger!\n
+        </item>
+    </string-array>
+
+</resources>

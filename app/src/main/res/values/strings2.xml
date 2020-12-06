@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Experiments! -->
+    <!-- For Make It Yourself! -->
+    <!-- For Experiment titles! -->
+    <string-array name="C1_title_array">
+        <item>Make Your Own Invisible Ink</item>
+        <item>Make A Pinhole Camera</item>
+    </string-array>
+
+    <!-- For Experiment images! -->
+    <array name="C1_image_array">
+        <item>R.drawable.c1image1</item>
+        <item>R.drawable.c1image2</item>
+    </array>
+
+    <!-- For Experiment intros! -->
+    <string-array name="C1_intro_array">
+        <item> Write your own secret messages with invisible ink!</item>
+        <item>See the mystery behind upside-down objects by learning how light travels in a simple pinhole camera</item>
+    </string-array>
+
+    <string-array name="C1_materials_array">
+        <item>
+            > A lemon
+            \n> Water
+            \n> A cotton bud
+            \n> A sheet of paper
+            \n> An iron and adult supervision or a lamp/light bulb
+        </item>
+        <item>
+            > An old shoebox or box of any other kind
+            \n> Butter paper/wax paper
+            \n> Scissors/ a blade and glue
+            \n> Black paper
+        </item>
+    </string-array>
+    
+    <string-array name="C1_steps_array">
+        <item>
+            > Squeeze some lemon juice into a bowl and add a drop of water
+            \n> Dip the cotton bud into the lemon juice and use that to write your message on the sheet of paper.
+            \n> Wait for the juice to dry and become completely invisible.
+            \n> When you want to read your secret message or show it to someone else, heat the paper by holding it close to a light bulb or lamp, or ask an adult to iron it for you on very low heat!
+            \n\nWhat do you think will happen?
+            \nThe message will suddenly appear!
+        </item>
+
+        <item>
+            Cover the whole box with black paper.
+            \n> On one side of the box, make a small hole using a sharp pencil or scissors. Ask an adult to help you use the scissors or sharp objects. This is the camera lens
+            \n> On the other side of the box, cut a small square-shaped hole using the blade/scissors.
+            \n> Paste wax paper over this hole. This will be the screen.
+            \n> Now your camera is ready to use. Place the lens (the part with the small hole) towards a bright object (such as a tree on a sunny day or a burning candle). View the image through the wax paper side on the other side.
+            \n\nWhat do you think will happen?
+            \nYou will see an inverted or upside-down image of the object on the screen!
+        </item>
+    </string-array>
+
+    <string-array name="C1_expl_array">
+        <item>
+            Lemon juice is an organic substance, which means that it contains certain substances that have the element carbon in them. These carbon-based substances are absorbed into the paper when you right with lemon juice.
+            \n\nOnce the lemon juice dries, the ink becomes invisible. But the carbon substances that the paper absorbed still remain. When the paper is heated, these substances are broken down to give free carbon. And when this carbon comes into contact with the air, it gets oxidized. This means it reacts with oxygen in the air, which also causes it to become a darker, brown color. This is what makes the secret message visible!
+        </item>
+        <item>
+            The image is inverted because of the way light travels. One of the qualities of light is that it always travels in a straight line.
+            \n\nLight from the top of the object enters the pinhole diagonally and reaches the bottom of the screen. Similarly, light from the bottom of the object enters the pinhole diagonally and reaches the top of the screen. Thus we see the image as being upside down or inverted.\n
+        </item>
+    </string-array>
+
+</resources>

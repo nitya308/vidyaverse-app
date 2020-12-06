@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- youtube thumbnail view to show the thumbnail of videos -->
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/video_thumbnail_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/thumbnail_image_view_desc"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/video_title_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/video_title_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            android:text="Title of Video"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/video_thumbnail_image_view" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

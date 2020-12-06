@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Exploring the everyday world! -->
+    <!-- For Experiment titles! -->
+    <string-array name="C2_title_array">
+        <item>From Rainbow Coloured To White</item>
+        <item>Which Color Warms Up Faster</item>
+        <item>Sunlight for Plants</item>
+        <item>Germination</item>
+        <item>Conductors and Insulators</item>
+    </string-array>
+
+    <!-- For Experiment images! -->
+    <string-array name="C2_image_array">
+        <item>c2image1</item>
+        <item>c2image2</item>
+        <item>c2image3</item>
+        <item>c2image4</item>
+        <item>c2image5</item>
+    </string-array>
+
+    <!-- For Experiment intros! -->
+    <string-array name="C2_intro_array">
+        <item>What is the color white really made of? Find out with this simple experiment…</item>
+        <item>Why should you not wear black clothes in the summer? Find out with this experiment…</item>
+        <item>How important is sunlight for plants to grow?</item>
+        <item>What does a seed really need to turn into a plant? Find out with this experiment!</item>
+        <item>Do certain object absorb heat faster than others? Find out why</item>
+    </string-array>
+
+    <string-array name="C2_materials_array">
+        <item>
+            > A sheet of white paper\n> Some crayons/colored markers\n> An old CD (or a piece of cardboard) OR a fidget spinner OR a spinning top OR a spinner from a game
+        </item>
+        <item>
+            > Two glasses of water\n> 2 rubber bands or some sellotape\n> White paper\n> Black paper
+        </item>
+        <item>
+           Two samplings- small plants (you can plant some kidney beans/ rajma seeds in two small pots and leave them for a few days)
+        </item>
+        <item>
+            > Some kidney bean (rajma) seeds\n> A small stick or long paintbrush or ruler\n> Thread\n> A glass of water
+        </item>
+        <item>
+            > A glass of hot water\n> A metal spoon\n> A pencil
+        </item>
+    </string-array>
+
+    <string-array name="C2_steps_array">
+        <item>
+            > From your white sheet of paper, cut out a circle.\n> Then divide your circle into 7 parts with a scale.\n> Color each part with a rainbow color as seen in the picture to make the color wheel. Make sure to follow the same order!\n> If using a CD/ Cardboard: Stick your color wheel onto the CD/ cardboard. Then put it through a pencil and spin it fast.\n> If using a fidget spinner/ top/ or game spinner: Stick your color wheel onto the fidget spinner/top and spin it fast.\nWhat do you think will happen?\nThe colors should start to disappear and the color wheel looks white!
+        </item>
+        <item>
+            > Fill half of both glasses with equal amounts of water.
+            \n> On the first glass, wrap the white paper around it using a rubber band or sellotape.
+            \n> Do the same on the second glass with black paper.
+            \n> Leave the glasses in a sunny place for a few hours.
+            \n> Then use a thermometer or your finger to see in which glass the water is warmer.
+            \n\nWhat do you think will happen?
+            \nThe water in the black paper glass will be warmer than the water in the white paper glass.\n
+        </item>
+        <item>
+            > Take your first sapling and keep it in your balcony/ in an open space with sunlight.
+            \n> Take your second sapling and place it in a dark room with no sunlight.
+            \n> Leave both plants for a few days and then observe what happens.
+            \n\nWhat do you think will happen?
+            \nThe plant in sunlight will have grown much more than the plant kept in the room with no sunlight.
+        </item>
+        <item>
+            > Take the glass and half fill it with water.
+            \n> Place the ruler/paintbrush/stick inside the glass diagonally and mark the water level. Then take it out.
+            \n> Tie three rajma seeds around the ruler/paintbrush/stick as shown in the picture. One should be on the top in the air, one on the bottom inside the water, and one on your water level mark so it\'s half above water and half inside
+            \n> Place the stick/ paintbrush with the seeds in water and leave it in a warm place for a few days.\
+            \n> Over the next few days, observe what you see every morning. Which seed has grown the most? Which seed has grown the least?
+            \n\nWhat do you think will happen?
+            \nYou will likely see that the seed in the air will be the same. The seed in the water will have grown a little bit and the seed in between the water and air will have grown the most.
+        </item>
+
+        <item>
+            > Ask an adult to help you heat up some water and fill it in a glass.
+            \n> Put a spoon and a wooden pencil in the glass as seen in the picture and leave it for 20 minutes
+            \n> Now touch the top of the pencil and the spoon and see which one is warmer.
+            \n\nWhat do you think will happen?
+            \nThe spoon will be warmer than the pencil.
+        </item>
+    </string-array>
+
+
+    <string-array name="C2_expl_array">
+        <item>
+            This is what’s known as Newton’s disc. He discovered that white light is actually made up of a combination of seven colors- red, orange, yellow, green, blue, violet-purple, and indigo. A mixture of these colors in equal amounts gives us the color white.
+            \n\nWhen we spin the disc fast, the colors start to mix with each other and form the color white.
+            \nWhat do you think the color black is made of?\n
+        </item>
+
+        <item>
+            Why is the water in the glass with the black paper warmer? It’s because of the way light is absorbed and reflected by different colors. Objects of black color absorb more sunlight, which is then converted to heat energy. But white color reflects more light than it absorbs. Therefore it absorbs less heat and the water is that glass colder.
+        </item>
+
+        <item>
+            Why is sunlight important for plants to grow? First, we should know how plants produce their food. Plants are living things that need food to grow. They produce this food by a process called photosynthesis by which they convert carbon dioxide and water to produce glucose (their food). The energy needed for this process to happen comes from sunlight. The green pigment in the leaves called chlorophyll absorbs sunlight and uses the energy from for photosynthesis.
+            \nThe plant kept in sunlight was able to perform photosynthesis and grow, but the second plant could not produce food without sunlight, and therefore did not grow.
+            \nWhat do you think will happen if only the leaves of the plant are covered with black paper? Will the plant be able to grow?\n
+        </item>
+
+        <item>
+            Growing of a seed into a small shoot and root is called germination. For germination or growth of the seed, two things are necessary: water and oxygen.
+            \n\nThe seed absorbs water and swells up which allows the coating around the seed to break so that the plant can grow. Without water, this process cannot happen. That is why the first seed in the air has not grown.
+            \n\nPlants need oxygen to breathe, just like us. The young seed, when it begins to grow needs oxygen. The seed completely submerged in water has only very less oxygen that’s dissolved in water. But the seed in between water and air, has unlimited oxygen from the air. This is why it grows the most.
+            \n\nThis is also why when we plant seeds, we never bury them too deep in the soil, otherwise they won’t have air to breathe. You can also see how important it is to water seeds when they’re germinating, but not over water them.
+        </item>
+
+        <item>
+            Why does the spoon warmer than the pencil? This is because of how the two objects transfer heat. Heat is a form of energy that makes an object warmer.
+            \n\nThe pencil is made of wood which is an insulator or bad conductor of heat. This means that it does not allow heat to pass through it easily. Therefore, it does not absorb heat from the hot water.
+            \n\nThe spoon is made of metal which is a good conductor of heat. This means that it allows heat to pass through it easily. This is why it absorbs heat from the water easily and becomes warmer!
+            \n\nDo you know of other substances which are conductors and insulators of heat? What about plastic or paper?
+        </item>
+
+    </string-array>
+
+
+</resources>

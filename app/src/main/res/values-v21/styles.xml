@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Basic styles for theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/dark_purple</item>
+        <item name="colorAccent">@color/orange</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/dark_grey</item>
+        <item name="actionMenuTextColor">@color/dark_grey</item>
+    </style>
+
+    <!-- Setting up bars-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Creating Action Bar -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/dark_purple</item>
+    </style>
+
+
+
+
+    <style name="MyWindows">
+        <item name="android:background">@color/light_green</item>
+    </style>
+    <style name="YTWindows">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="buttons">
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="drawer">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/dark_grey</item>
+
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/light_green</item>
+
+    </style>
+</resources>

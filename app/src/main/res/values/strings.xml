@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TESTING</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="close_player_activity">Close Player activity</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+
+    <!-- For Youtube Videos -->
+    <string-array name="video_id_array">
+        <item>1yBwWLunlOM</item>
+        <item>I0dQx4SNSwE</item>
+        <item>wgxJhpLoFFU</item>
+        <item>sqF7abOYCNY</item>
+        <item>NPvMUpcxPSA</item>
+        <item>eWEC8LQrmGA</item>
+        <item>HTov4WFzdQ0</item>
+        <item>mPsLanVS1Q8</item>
+    </string-array>
+
+    <string-array name="video_title_array">
+        <item>How Rockets Work</item>
+        <item>The Science Behind Why We Yawn</item>
+        <item>Could We Record Our Dreams?</item>
+        <item>Can Balloons Stop Bullets?</item>
+        <item>Why Are Some People Left-Handed?</item>
+        <item>Why Are Danger Signals Red?</item>
+        <item>Why Do We Forget Things?</item>
+        <item>The Coriolis Effect!</item>
+    </string-array>
+</resources>
