@@ -33,7 +33,6 @@ This drawer is initalized in each class when ```onCreate()``` is called. It's st
  
  Drawer state is toggled using:
   ```
- //Toggle drawer state
     @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
