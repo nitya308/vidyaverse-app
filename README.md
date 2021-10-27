@@ -49,3 +49,4 @@ MainActivity.java places calls to two main classes depending on which option is 
     | -- ExperimentsActivity.java 
     | -- VideosPlayingActivity.java 
  ```  
+Both sub-activity classes use a **RecyclerView** (``` import androidx.recyclerview.widget.RecyclerView```) to display a list of resources that is loaded as the user scrolls.
