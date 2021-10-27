@@ -1,5 +1,5 @@
 # EducationApp
-We're a community service club that mentors elementary and middle school stduents in STEM in Bangalore. This is our App for distributing educational resources.
+We're a community service club that mentors elementary and middle school students in STEM in Bangalore. This is our App for distributing educational resources.
 
 ## Structure
 The structure of the app is as follows:
