@@ -2,7 +2,31 @@
 We're a community service club that mentors elementary and middle school stduents in STEM in Bangalore. This is our App for distributing educational resources.
 
 ## Structure
-1. Science videos
-    Code is found in the YoutubePlayer folders
-2. Science experiments based on area of interest
-    Code can be found in the experiments folders
+The structure of the app is as follows:
+ ```
+ -- src
+    | -- main
+    |   |-- MainActivity.java // contains the main resources in the app
+    |   |-- InfoAbout.java //information about the app & our service project
+    |   |-- Links.java //external links to our project
+    |
+    |-- resources-experiments // resources for practical STEM labs called in MainActivity
+    |
+    |-- resources-youtubevideos // plays curated and update-able YouTube STEM resources playlist called in MainActivity
+ ```
+## Navigation Drawer
+The app has a left side toggle navigation drawer that uses:
+```
+import androidx.drawerlayout.widget.DrawerLayout;
+private DrawerLayout drawer;
+```
+
+This drawer is initalized in each class when ```onCreate()``` is called. It's structure is:
+```
+ -- navigation drawer
+    | -- App logo
+    | -- switch (item.getItemId()) {
+    |   |-- case R.id.home: calls to MainActivity.class
+    |   |-- case R.id.About: calls to InfoAbout.class
+    |   |-- case R.id.links: calls to Links.class
+ ```
