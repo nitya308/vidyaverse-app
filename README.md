@@ -29,4 +29,17 @@ This drawer is initalized in each class when ```onCreate()``` is called. It's st
     |   |-- case R.id.home: calls to MainActivity.class
     |   |-- case R.id.About: calls to InfoAbout.class
     |   |-- case R.id.links: calls to Links.class
+ ```  
+ 
+ Drawer state is toggled using:
+  ```
+ //Toggle drawer state
+    @Override
+    public void onBackPressed() {
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
  ```
