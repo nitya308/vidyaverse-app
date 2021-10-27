@@ -42,3 +42,10 @@ This drawer is initalized in each class when ```onCreate()``` is called. It's st
         }
     }
  ```
+## MainActivity.java
+MainActivity.java places calls to two main classes depending on which option is selected:
+```
+ -- MainActivity.java
+    | -- ExperimentsActivity.java (https://github.com/nitya308/STEM_Resources_App/tree/master/app/src/main/java/nityaagarwala/example/testing/experiments)
+    | -- VideosPlayingActivity.java (https://github.com/nitya308/STEM_Resources_App/blob/master/app/src/main/java/nityaagarwala/example/testing/youtubevideos/VideosPlayingActivity.java)
+ ```  
