@@ -54,8 +54,8 @@ Both sub-activity classes use a **RecyclerView** (``` import androidx.recyclervi
 
 
 ## ExperimentsActivity.java - Recycler View
-### The Recycler view widget has two methods which are called in ``` onCreate()```:   
-**1. ``` setUpRecyclerView();``` **  
+The Recycler view widget has two methods which are called in ``` onCreate()```:   
+### 1. ``` setUpRecyclerView();``` 
 This method displays boxes with available lab practical notes. It sets a fixed size for the widget (= the number of resources available) and creates and assigns it a new LinearLayoutManager.
 ``` 
 private void setUpRecyclerView() {
@@ -66,7 +66,7 @@ private void setUpRecyclerView() {
     }
 ``` 
 
-**2. ``` populateRecyclerView();``` ** 
+### 2. ``` populateRecyclerView();```
 This method populates each card in the Recycler view by setting an adapter for it. 
  
 ``` 
@@ -108,3 +108,30 @@ recyclerView.addOnItemTouchListener(new RecyclerViewOnClickListener(this, new Re
 ``` 
   
 All the fields required to be displayed are passed above via ```intent```  onto ```ExpShowActivity.class```  which displays the full notes for each practical clicked. 
+
+## YoutubeVideoAdapter.java
+The video resources section of the app works in a similar way.  
+YouTube video model holds a ``` videoID```  and a ``` videoTitle```  which fill the Recycler view. ``` onBindViewHolder()```  uses the videoID to load the YouTube thumbnail using the Android YouTube developer key.  
+``` 
+holder.videoThumbnailImageView.initialize(Constants.DEVELOPER_KEY, new YouTubeThumbnailView.OnInitializedListener() {
+            @Override
+            public void onInitializationSuccess(YouTubeThumbnailView youTubeThumbnailView, final YouTubeThumbnailLoader youTubeThumbnailLoader) {
+                //Setting the video id to load thumbnail
+                youTubeThumbnailLoader.setVideo(youtubeVideoModel.getVideoId());
+
+                youTubeThumbnailLoader.setOnThumbnailLoadedListener(new YouTubeThumbnailLoader.OnThumbnailLoadedListener() {
+                    @Override
+                    public void onThumbnailLoaded(YouTubeThumbnailView youTubeThumbnailView, String s) {
+                        //Releasing thumbnail loader when thumbnail is loaded successfully
+                        youTubeThumbnailLoader.release();
+                    }
+
+                    @Override
+                    public void onThumbnailError(YouTubeThumbnailView youTubeThumbnailView, YouTubeThumbnailLoader.ErrorReason errorReason) {
+                        //Showing error if thumbnail load fails
+                        Log.e(TAG, "Youtube Thumbnail Error");
+                    }
+                });
+            }
+``` 
+  
