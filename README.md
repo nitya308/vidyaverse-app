@@ -105,6 +105,4 @@ This method populates each card in the Recycler view by setting an adapter for i
                 startActivity(intent);
             }
         }));
-    ``` 
-    
-All the fields required to be displayed are passed above via ``` intent```  onto ``` ExpShowActivity.class```  which displays the full notes for each practical cliked. 
+    ```  
