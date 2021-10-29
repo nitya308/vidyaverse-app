@@ -54,8 +54,8 @@ Both sub-activity classes use a **RecyclerView** (``` import androidx.recyclervi
 
 
 ## ExperimentsActivity.java - Recycler View
-The Recycler view widget has two methods which are called in ``` onCreate()```   
-1. ``` setUpRecyclerView();``` 
+The Recycler view widget has two methods which are called in ``` onCreate()```:   
+**1. ``` setUpRecyclerView();``` **  
 This method displays boxes with available lab practical notes. It sets a fixed size for the widget (= the number of resources available) and creates and assigns it a new LinearLayoutManager.
 ``` 
 private void setUpRecyclerView() {
@@ -66,7 +66,7 @@ private void setUpRecyclerView() {
     }
 ``` 
 
-2. ``` populateRecyclerView();```  
+**2. ``` populateRecyclerView();``` ** 
 This method populates each card in the Recycler view by setting an adapter for it. 
  
 ``` 
@@ -76,8 +76,10 @@ This method populates each card in the Recycler view by setting an adapter for i
 
         //Setting adapter for Recycle View
         recyclerView.setAdapter(adapter);
-```   
+```  
+
  ```ExpModelAdapter.java```   then gets the experiment title, introduction and intro image for each box in the Recycler View from ```  ExpModel.java```   which stores these fields. These are displayed in the Recycler View boxes  
+   
  ```  
     public void onBindViewHolder(ExpModelViewHolder holder, final int position) {
 
@@ -89,6 +91,7 @@ This method populates each card in the Recycler view by setting an adapter for i
     ```   
   
 ``` populateRecyclerView();```  also overrides ```onItemClick()``` which is called when an item in the Recycler view is clicked. It displays the full notes for a particular lab practical box clicked.  
+  
 ```
         //Setting click event to display full experiment when clicked
         recyclerView.addOnItemTouchListener(new RecyclerViewOnClickListener(this, new RecyclerViewOnClickListener.OnItemClickListener() {
