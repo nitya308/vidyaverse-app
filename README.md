@@ -90,7 +90,7 @@ This method populates each card in the Recycler view by setting an adapter for i
     }
  ```   
   
-xx
+``` populateRecyclerView()```  also overrides ```onItemClick()``` which is called when an item in the Recycler view is clicked. It displays the full notes for a particular lab practical box clicked.  
   
 ```
         //Setting click event to display full experiment when clicked
