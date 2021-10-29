@@ -88,9 +88,9 @@ This method populates each card in the Recycler view by setting an adapter for i
         holder.intro.setText(expModel.getIntro());
         holder.image.setImageResource(expModel.getimageId());
     }
-    ```   
+ ```   
   
-``` populateRecyclerView();```  also overrides ```onItemClick()``` which is called when an item in the Recycler view is clicked. It displays the full notes for a particular lab practical box clicked.  
+xx
   
 ```
         //Setting click event to display full experiment when clicked
