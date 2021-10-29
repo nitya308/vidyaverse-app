@@ -93,7 +93,6 @@ This method populates each card in the Recycler view by setting an adapter for i
 ``` populateRecyclerView()```  also overrides ```onItemClick()``` which is called when an item in the Recycler view is clicked. It displays the full notes for a particular lab practical box clicked.  
   
 ```
-        //Setting click event to display full experiment when clicked
         recyclerView.addOnItemTouchListener(new RecyclerViewOnClickListener(this, new RecyclerViewOnClickListener.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
@@ -107,3 +106,5 @@ This method populates each card in the Recycler view by setting an adapter for i
             }
         }));
     ``` 
+    
+All the fields required to be displayed are passed above via ``` intent```  onto ``` ExpShowActivity.class```  which displays the full notes for each practical cliked. 
