@@ -93,16 +93,18 @@ This method populates each card in the Recycler view by setting an adapter for i
 ``` populateRecyclerView()```  also overrides ```onItemClick()``` which is called when an item in the Recycler view is clicked. It displays the full notes for a particular lab practical box clicked.  
   
 ```
-        recyclerView.addOnItemTouchListener(new RecyclerViewOnClickListener(this, new RecyclerViewOnClickListener.OnItemClickListener() {
-            @Override
-            public void onItemClick(View view, int position) {
-                Intent intent = new Intent(ExperimentsActivity.this, ExpShowActivity.class);
-                intent.putExtra("image", ExpImageArray[position]);
-                intent.putExtra("title", expTitleArray[position]);
-                intent.putExtra("materials", materialsArray[position]);
-                intent.putExtra("steps", stepsArray[position]);
-                intent.putExtra("expl", explanationArray[position]);
-                startActivity(intent);
-            }
-        }));
-    ```  
+recyclerView.addOnItemTouchListener(new RecyclerViewOnClickListener(this, new RecyclerViewOnClickListener.OnItemClickListener() {
+  @Override
+    public void onItemClick(View view, int position) {
+        Intent intent = new Intent(ExperimentsActivity.this, ExpShowActivity.class);
+        intent.putExtra("image", ExpImageArray[position]);
+        intent.putExtra("title", expTitleArray[position]);
+        intent.putExtra("materials", materialsArray[position]);
+        intent.putExtra("steps", stepsArray[position]);
+        intent.putExtra("expl", explanationArray[position]);
+        startActivity(intent);
+        }
+    }));
+``` 
+  
+All the fields required to be displayed are passed above via ```intent```  onto ```ExpShowActivity.class```  which displays the full notes for each practical clicked. 
