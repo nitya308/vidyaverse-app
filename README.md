@@ -111,7 +111,7 @@ All the fields required to be displayed are passed above via ```intent```  onto 
 
 ## YoutubeVideoAdapter.java
 The video resources section of the app works in a similar way.  
-YouTube video model holds a ``` videoID```  and a ``` videoTitle```  which fill the Recycler view. ``` onBindViewHolder()```  uses the videoID to load the YouTube thumbnail using the Android YouTube developer key.  
+**YouTubeVideoModel** holds a ``` videoID```  and a ``` videoTitle```  which fill the Recycler view. ``` onBindViewHolder()```  uses the videoID to load the YouTube thumbnail using the Android YouTube developer key.  
 ``` 
 holder.videoThumbnailImageView.initialize(Constants.DEVELOPER_KEY, new YouTubeThumbnailView.OnInitializedListener() {
             @Override
