@@ -54,7 +54,7 @@ Both sub-activity classes use a **RecyclerView** (``` import androidx.recyclervi
 
 
 ## ExperimentsActivity.java - Recycler View
-The Recycler view widget has two methods which are called in ``` onCreate()```:   
+### The Recycler view widget has two methods which are called in ``` onCreate()```:   
 **1. ``` setUpRecyclerView();``` **  
 This method displays boxes with available lab practical notes. It sets a fixed size for the widget (= the number of resources available) and creates and assigns it a new LinearLayoutManager.
 ``` 
