@@ -1,13 +1,13 @@
 # VidyaVerse App
 
-**Author:** Nitya Agarwala, Minal Shaik
+**Author:** Nitya Agarwala, Minal Shaik <br/>
 **Created:** 2021 <br/>
 
-A collection of STEM tutorials, resources and quizzes for VidyaVerse: a community service club that mentors elementary and middle school students in STEM in Bangalore, India
-
+An android app with a collection of STEM tutorials, resources and quizzes for VidyaVerse: a community service club that mentors elementary and middle school students in STEM in Bangalore, India
 
 ## Basic Details:
-**Languages:** Java
+**Languages:** Java <br/>
+**Tools:** Android Studio
 
 ## Structure
 The structure of the app is as follows:
