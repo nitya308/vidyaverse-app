@@ -1,5 +1,13 @@
-# STEM_Resources_App
-We're a community service club that mentors elementary and middle school students in STEM in Bangalore. This is our App for distributing educational resources.
+# VidyaVerse App
+
+**Author:** Nitya Agarwala, Minal Shaik
+**Created:** 2021 <br/>
+
+A collection of STEM tutorials, resources and quizzes for VidyaVerse: a community service club that mentors elementary and middle school students in STEM in Bangalore, India
+
+
+## Basic Details:
+**Languages:** Java
 
 ## Structure
 The structure of the app is as follows:
